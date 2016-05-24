@@ -1,6 +1,16 @@
-<span>HELLO WORLD</span>
-        <li><%= users_online.size %></li>
+<h2 class="text-center">Currently Online</h2>
+<div class="table-red">
+	<div class="row header">
+		<div class="cell">Name</div>
+		<div class="cell">Nationality</div>
+		<div class="cell">Rating</div>
+	</div>
 	<% users_online.each do |user_online| %>
-        <li><%= user_online.email %></li>
-        <li><%= user_online.name %></li>
-    <% end %>
+		<div class="row">
+			<div class="cell"><%= user_online.name %></div>
+			<div class="cell">American</div>
+			<div class="cell">1543</div>
+		</div>
+	<% end %>
+	</div>
+</div>

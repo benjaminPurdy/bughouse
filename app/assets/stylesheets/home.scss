@@ -47,3 +47,35 @@
 .users-online {
   height: 400px;
 }
+
+.table-red {
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  display: table;
+  .row:nth-of-type(odd) {
+    background: #e9e9e9;
+  }
+  .row {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #3b3b3b;
+    background: #f6f6f6;
+    display: table-row;
+
+    .cell {
+      padding: 6px 12px;
+      display: table-cell;
+    }
+  }
+  .row.header {
+    background: #ea6153;
+    color: #fff;
+    font-weight: 900;
+    display: table-row;
+    .cell {
+      padding: 6px 12px;
+      display: table-cell;
+    }
+  }
+}

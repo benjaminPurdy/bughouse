@@ -1,0 +1,17 @@
+<div class="login-container">
+  <h1 class="text-center">Sign in with a method below</h1>
+  <div class="section sign-in">
+      <button onclick="window.location.href='/users/auth/facebook'">Facebook</button><br/>
+      <button onclick="window.location.href='/users/auth/google_oauth2'">Google</button><br/>
+      <button onclick="window.location.href='/users/auth/twitter'">Twitter</button><br/>
+      <button onclick="window.location.href='/users/auth/github'">Github</button><br/>
+      <h5 class="text-center">OR</h5>
+      <form action="/users/auth/guest" method="post">
+        <button name="login-as-guest" value="login-as-guest"">As Guest</button>
+      </form>
+      <br/>
+      <br/>
+      <br/>
+      <button onclick="window.location.href='/'">&#8678 Back</button><br/>
+  </div>
+<div>

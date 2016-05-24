@@ -1,0 +1,2 @@
+module ChessHomeHelper
+end

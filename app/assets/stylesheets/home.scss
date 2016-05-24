@@ -1,0 +1,49 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.sign-in {
+  text-align: center;
+  button {
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #555;
+    padding: 0;
+    width: 300px; 
+    height: 48px;
+    font-family: inherit;
+    font-size: rem(18px);
+    line-height: 48px;
+    color: #999;
+    background: transparent;
+
+    &:hover {
+      border: 2px solid #aaa;
+      line-height: 46px;
+      //border-color: #aaa;
+    }
+  }
+}
+
+.homepage-sections {
+  .section {
+    padding-top: 20px;
+    text-align: center;
+    p {
+      padding-top: 30px;
+      text-align: left;
+      text-indent: 50px;
+      font-size: 15px;
+      padding-bottom: 10px;
+    }
+    a, users-online {
+      font-size: 20px;
+      font-weight: 300;
+      text-decoration: none; 
+      color: inherit;
+    }
+  }
+}
+.users-online {
+  height: 400px;
+}

@@ -1,0 +1,9 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+tmp/
+.bundle
+db/
+log/
+

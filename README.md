@@ -1,6 +1,6 @@
 # Bughouse
 This is a templant to get a up and running rails project already intergrated in with Devise and omniauth plugins for 'Facebook', 'Github', 'Twitter', and 'Google', as well as the ability to sign in as a 'Guest'. The content in it is for a bughouse chess application but can easily be removed and edited to your own liking as well as the CSS styles. 
----
+
 
 To get a up and running rails application you would need to:
 

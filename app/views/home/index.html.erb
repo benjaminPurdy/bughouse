@@ -21,10 +21,10 @@
   </div>
   <div class="col-md-6">
 	<div class="section">
-      <h2 class="text-center">Currently Online</h2>
-	  <ul class="users-online">
-	  </ul>
-    </div>
+      <div id="users-online" class="users-online">
+        <%= render partial: "users_online_list", locals: {users_online: @users_online} %>
+      </div>
+
     <div class="section">
     	<h4 class="text-center">Bobby(2112) and Neddy(2332)</h4>
     	<h5 class="text-center">VS</h5>

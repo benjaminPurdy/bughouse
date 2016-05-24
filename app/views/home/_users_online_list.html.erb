@@ -1,0 +1,6 @@
+<span>HELLO WORLD</span>
+        <li><%= users_online.size %></li>
+	<% users_online.each do |user_online| %>
+        <li><%= user_online.email %></li>
+        <li><%= user_online.name %></li>
+    <% end %>

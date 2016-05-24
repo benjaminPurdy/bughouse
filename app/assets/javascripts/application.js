@@ -14,3 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(document).ready(function () {
+    // will call refreshPartial every 3 seconds
+    setInterval(refresh_users_online_list, 10000)
+
+});
+
+// calls action refreshing the partial

@@ -25,7 +25,7 @@ body {
 	background-color: #222 !important;
 }
 
-p, a, h1, h2, h3, h4, h5 {
+p, a, h1, h2, h3, h4, h5, span, label {
 	color: #999 !important;
 }
 

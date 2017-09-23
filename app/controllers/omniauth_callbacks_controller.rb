@@ -12,11 +12,9 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
       redirect_to new_user_registration_url
     end
   end
+  
   alias_method :facebook, :all
   alias_method :twitter, :all
   alias_method :github, :all
   alias_method :google_oauth2, :all
-
-
-
 end

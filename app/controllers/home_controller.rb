@@ -8,17 +8,17 @@ class HomeController < ApplicationController
   end
 
   def refresh_online_users_list
-  if refresh_online_users_list?
-	  @@users_online = User.online
-  end
+    if refresh_online_users_list?
+  	  @@users_online = User.online
+    end
 
-  if @@users_online.nil?
-    @@users_online = []
-  end
-  @users_online = @@users_online
-	respond_to do |format|
-	  format.js
-	end
+    if @@users_online.nil?
+      @@users_online = []
+    end
+    @users_online = @@users_online
+  	respond_to do |format|
+  	  format.js
+  	end
   end
 
   def refresh_online_users_list?
